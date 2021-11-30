@@ -27,3 +27,9 @@ function isEven(input){
     }else return false;
 }
 
+function isVowel(letter){
+    return('aeiouAEIOU'.indexOf(letter) != -1);
+}
+
+
+
